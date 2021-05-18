@@ -24,6 +24,10 @@ public class Main {
 		    System.out.println("Vorname: "+resultSet.getString(3)); //Vorname
 		    System.out.println("Nachname: "+resultSet.getString(4));// Nachname
 		}
+		
+		resultSet.close();
+		statement.close();
+		connection.close();
 		// TODO Auto-generated method stub
 
 	}
